@@ -1,0 +1,65 @@
+/* Reset  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* Header Styling */
+header {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+}
+
+header nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+header nav li:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+/* Main Styling */
+h2 {
+    font-size: 4rem;
+    color: #c0c0c0;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+    /* text-align: center; */
+    padding: 2rem;
+}
+
+p {
+    color: #f9f9f9;
+    font-size: 2.5rem;
+    background-color: #a8a7a7bb;
+    border: 3px #7e7e7e groove;
+    text-shadow: 1px 1px 1px black;
+}

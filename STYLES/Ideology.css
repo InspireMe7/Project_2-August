@@ -1,0 +1,14 @@
+/* Header Style */
+header nav li:hover {
+    color: #f36d6a;
+}
+
+/* Main Styling  */
+main {
+    background-image: url("/Assets/Images/89daa0d5-487b-4043-9986-94fd2778a10e.jpeg");
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
