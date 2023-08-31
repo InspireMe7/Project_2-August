@@ -4,7 +4,7 @@ header nav li:hover {
 }
 
 /* Main Styling  */
-main {
+.HeroPicture {
     background-image: url("/Assets/Images/89daa0d5-487b-4043-9986-94fd2778a10e.jpeg");
     background-repeat: none;
     background-size: cover;
