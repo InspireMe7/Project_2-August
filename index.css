@@ -16,23 +16,46 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
     color: #ca763a;
 }
 
-/* Background Image */
-.Background_Image {
-    background-image: url("/Assets/Images/EGS_RimWorld_LudeonStudios_S1-2560x1440-410a62ec21d44260409182e1174cce2e.jpg");
+/* Background Images */
+.HeroImage {
+    background-image: url("/Assets/Images/Index_Images/EGS_RimWorld_LudeonStudios_S1-2560x1440-410a62ec21d44260409182e1174cce2e.jpg");
 
     background-repeat: none;
     background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
 }
+
+.FirstBackground {
+    background-image: url("/Assets/Images/Index_Images/6424729.png");
+
+    background-repeat: none;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.SecondBackground {
+    background-image: url("/Assets/Images/Index_Images/Worldoverview.jpg");
+
+    background-repeat: none;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ThirdBackground {
+    background-image: url("/Assets/Images/Index_Images/ship.png");
+
+    background-repeat: none;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
 /* Main Styling  */
 /* ######################## */
 /* Text Background Styling */
-.Text_Background1 {
-    background-image: url("/Assets/Images/6424729.png");
-    background-position: 100% 100%;
-    background-repeat: repeat-x;
-}
 
 main {
     display: flex;
@@ -42,30 +65,10 @@ main {
     text-align: center;
 }
 
-/* Section1 */
-.whatisrimworld {
-    display: flex;
-    flex-direction: column;
-    width: 75vw;
-    height: 75vh;
-    border: solid lime 2px;
-    margin: auto;
+.Videos iframe {
+    width: 50vw;
+    height: 50vh;
 }
-.whatisrimworld p {
-    width: 60%;
-    height: 100%;
-    padding: 1rem;
-    margin: auto;
-}
-.imageSize {
-    width: 100%;
-    height: 100%;
-}
-img {
-    width: 100%;
-    height: 100%;
-}
-
 
 /* Dropdown Menus */
 
