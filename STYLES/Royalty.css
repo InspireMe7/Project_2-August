@@ -6,11 +6,6 @@ header nav li:hover {
 /* Main Styling  */
 /* ######################## */
 /* Text Background Styling */
-.Text_Background {
-    background-image: url("/Assets/Images/6424729.png");
-    background-position: 100% 100%;
-    background-repeat: repeat-x;
-}
 
 .Background_Image {
     background-image: url("/Assets/Images/ba8b9365-8363-4729-ae4c-7c3c49f8c5d3.jpeg");

@@ -27,7 +27,7 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
 }
 
 .FirstBackground {
-    background-image: url("/Assets/Images/Index_Images/6424729.png");
+    background-image: url("/Assets/Images/Index_Images/Worldoverview.jpg");
 
     background-repeat: none;
     background-size: 100% 100%;
@@ -36,7 +36,7 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
 }
 
 .SecondBackground {
-    background-image: url("/Assets/Images/Index_Images/Worldoverview.jpg");
+    background-image: url("/Assets/Images/Index_Images/6424729.png");
 
     background-repeat: none;
     background-size: 100% 100%;
@@ -53,49 +53,89 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
     width: 100vw;
 }
 
-/* Main Styling  */
-/* ######################## */
-/* Text Background Styling */
-
-.Videos {
-    width: 100vw;
-    height: 50vh;
-}
-
-.Videos iframe {
-    width: 50vw;
-    height: 50vh;
-}
-
-/* Dropdown Menus */
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.dropdown {
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-.dropdown:hover .dropdown-content1{
+body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-    width: 11vw;
-    height: 15rem;
-    margin-top: 4.6rem;
+/* Main Styling  */
+/* ######################## */
+
+h2 {
     text-align: center;
 }
-.dropdown-content1 a:hover {
-    background-color: rgb(56, 63, 68);
+
+p {
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.What,
+.How,
+.Goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.WhatIsRimworld,
+.HowIsRimworld,
+.RimworldGoal {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 1em;
+}
+.WhatIsRimworld {
+    height: 40%;
+}
+
+.HowIsRimworld {
+    height: 30%;
+}
+
+.RimworldGoal {
+    height: 35%;
+}
+
+.WhatIsRimworld p,
+.HowIsRimworld p,
+.RimworldGoal p {
+    width: 95%;
+}
+
+.FirstPicture {
+    width: 55%;
+}
+.FirstPicture img{
+    width: 100%;
+    height: 100%;
+    border: lime solid 3px;
+}
+.Videos {
+    background-image: url("/Assets/Images/Index_Images/RimWorldPlanet2.jpg");
+
+    background-repeat: none;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+.VideoBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10em;
+}
+
+.Videos div div iframe {
+    width: 40vw;
+    height: 50vh;
 }
 
 /* Scrolling */
@@ -109,14 +149,14 @@ main .scroll1 {
     width: 100vw;
 } */
 
-.Videos {
-    display: flex;
-}
-
 /* Footer */
 footer {
-    width: 100vw;
-    height: 50vh;
-    margin-top: auto;
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 
