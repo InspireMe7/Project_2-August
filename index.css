@@ -57,12 +57,9 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
 /* ######################## */
 /* Text Background Styling */
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.Videos {
     width: 100vw;
-    text-align: center;
+    height: 50vh;
 }
 
 .Videos iframe {
@@ -102,16 +99,24 @@ header nav {
 }
 
 /* Scrolling */
-.ScrollContainer {
+/* .ScrollContainer {
     scroll-snap-type: y mandatory;
     height: 100vh;
 }
 main .scroll1 {
     scroll-snap-align: start;
     height: 100vh;
-}
+    width: 100vw;
+} */
 
 .Videos {
     display: flex;
+}
+
+/* Footer */
+footer {
+    width: 100vw;
+    height: 50vh;
+    margin-top: auto;
 }
 
