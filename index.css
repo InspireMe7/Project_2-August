@@ -36,7 +36,7 @@ header nav li:nth-of-type(n+7):nth-of-type(-n+9):hover {
 }
 
 .SecondBackground {
-    background-image: url("/Assets/Images/Index_Images/6424729.png");
+    background-image: url("/Assets/Images/Index_Images/earylscreen.png");
 
     background-repeat: none;
     background-size: 100% 100%;
@@ -152,11 +152,24 @@ main .scroll1 {
 /* Footer */
 footer {
     display: flex;
-    height: 10vh;
+    flex-direction: column;
+    height: 15vh;
     background-color: black;
     color: white;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
+}
+
+footer a {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(83, 146, 240);
+}
+
+.footerLinks {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
 }
 
