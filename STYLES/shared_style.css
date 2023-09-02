@@ -100,3 +100,43 @@ p {
     border: 3px #7e7e7e groove;
     text-shadow: 1px 1px 1px black;
 }
+.headbox {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 95vh;
+}
+
+.headbox p {
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.image1,
+.image2 {
+    width: 100vw;
+    height: 100%;
+}
+
+.image3,
+.image4 {
+    width: 95vw;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.image5,
+.image6 {
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.image7 {
+    width: 75vw;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+}

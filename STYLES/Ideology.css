@@ -2,13 +2,34 @@
 header nav li:hover {
     color: #f36d6a;
 }
+body {
+    background-color: #111a1f;
+}
 
 /* Main Styling  */
-.HeroPicture {
-    background-image: url("/Assets/Images/89daa0d5-487b-4043-9986-94fd2778a10e.jpeg");
-    background-repeat: none;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
 
+main > p {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-top: 5rem;
+}
+h3 {
+    color: #e86765;
+}
+main {
+    text-align: center;
+}
+ul p {
+    width: 90vw;
+    margin: auto;
+}
+
+
+.IdeologyTrailer {
+    padding: 2rem;
+    width: 90vw;
+    height: 90vh;
 }
