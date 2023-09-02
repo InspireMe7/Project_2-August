@@ -2,13 +2,35 @@
 header nav li:hover {
     color: #51b8bd;
 }
+body {
+    background-color: #110c1a;
+}
 
 /* Main Styling  */
-.HeroPicture {
-    background-image: url("/Assets/Images/EGS_RimWorldBiotech_LudeonStudios_DLC_S1_2560x1440-19a0197df9b0e27861336b212a73ef11.jpeg");
-    background-repeat: none;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+
+.headbox2 > p {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
 }
+h2 {
+    margin-top: 5rem;
+}
+h3 {
+    color: #e86765;
+}
+main {
+    text-align: center;
+}
+ul p {
+    width: 90vw;
+    margin: auto;
+}
+
+.BiotechTrailer {
+    padding: 2rem;
+    width: 90vw;
+    height: 90vh;
+}
+
 
