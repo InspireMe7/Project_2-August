@@ -38,4 +38,6 @@ main {
 
 .RoyaltyTrailer {
     padding: 2rem;
+    width: 90vw;
+    height: 90vh;
 }
