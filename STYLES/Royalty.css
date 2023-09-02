@@ -3,9 +3,12 @@ header nav li:hover {
     color: #e3d16d;
 }
 
+body {
+    background-color: #07040d;
+}
+
 /* Main Styling  */
 /* ######################## */
-/* Text Background Styling */
 
 .Background_Image {
     background-image: url("/Assets/Images/ba8b9365-8363-4729-ae4c-7c3c49f8c5d3.jpeg");
@@ -13,4 +16,54 @@ header nav li:hover {
     background-size:  100% 100%;
     height: 100vh;
     width: 100vw;
+}
+h2 {
+    margin-top: 1rem;
+}
+main {
+    text-align: center;
+}
+.headbox p {
+    padding: 1rem;
+    margin: 2rem;
+}
+.headbox,
+.Mechcluster {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 95vh;
+}
+.psycasting {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Image Styling  */
+.image1,
+.image2 {
+    width: 100vw;
+    height: 100%;
+}
+
+.image3,
+.image4 {
+    width: 95vw;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.image5 {
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.RoyaltyTrailer {
+    padding: 2rem;
 }

@@ -84,6 +84,14 @@ h2 {
     /* text-align: center; */
     padding: 1rem;
 }
+h3 {
+    font-size: 3rem;
+    color: #c0c0c0;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+    /* text-align: center; */
+    padding: 1rem;
+}
 
 p {
     color: #f9f9f9;
