@@ -1,0 +1,36 @@
+/* Header Style */
+header nav li:hover {
+    color: #754d33;
+}
+body {
+    background-color: #110c1a;
+}
+
+/* Main Styling  */
+
+.headbox2 > p {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-top: 5rem;
+}
+h3 {
+    color: #e86765;
+}
+main {
+    text-align: center;
+}
+ul p {
+    width: 90vw;
+    margin: auto;
+}
+
+.BiotechTrailer {
+    padding: 2rem;
+    width: 90vw;
+    height: 90vh;
+}
+
+
